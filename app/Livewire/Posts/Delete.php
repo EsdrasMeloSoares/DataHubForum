@@ -35,7 +35,7 @@ class Delete extends Component
     public function delete(): void
     {
         try {
-            $this->authorize('delete', $this->post);
+            $this->authorize('delete', $this->post);;
 
             $this->post->delete();
 

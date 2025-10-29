@@ -33,7 +33,8 @@ class Create extends Component
             'post.title' => [
                 'required',
                 'string',
-                'max:255'
+                'min:10',
+                'max:100'
             ],
             'post.body' => [
                 'required',
