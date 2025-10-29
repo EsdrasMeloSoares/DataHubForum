@@ -1,6 +1,6 @@
-# Fórum Utilizando Starter Kit TallStackUI
+# Data Hub Fórum
 
-<p align="center"><a href="https://tallstackui.com" target="_blank"><img src="https://raw.githubusercontent.com/tallstackui/website/main/arts/tallstackui.svg" width="500"></a></p>
+[TallStackUI website.](https://tallstackui.com)
 
 <p align="center">
     <img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/tallstackui/tallstackui?style=for-the-badge">
@@ -9,10 +9,7 @@
     <a href="https://livewire.laravel.com"><img alt="Livewire v3.x" src="https://img.shields.io/badge/Livewire-^v3.x-FB70A9?style=for-the-badge"></a>
 </p>
 
-## Welcome
+## Descrição
 
-This is the repository for the official TallStackUI starter kit for Laravel 12.
-
-## Documentation
-
-[Discover the starter kit by visiting the official documentation on the TallStackUI website.](https://tallstackui.com/docs/v2/starter-kit)
+Este é o **primeiro projeto utilizando Tall Stack UI**, criado com o objetivo de explorar suas funcionalidades.  
+O projeto consiste em um **fórum** onde usuários podem comentar sobre dados fornecidos por **APIs públicas** em threads específicas.
