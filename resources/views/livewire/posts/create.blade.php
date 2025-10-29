@@ -1,5 +1,5 @@
 <div>
-    <x-button :text="__('Create New Post')" wire:click="$toggle('modal')" sm />
+    <x-button :text="__('Create New Post')" icon="plus" wire:click="$toggle('modal')" sm />
 
     <x-modal :title="__('Create New Post')" wire x-on:open="setTimeout(() => $refs.name.focus(), 250)">
         <form id="user-create" wire:submit="save" class="space-y-4">
