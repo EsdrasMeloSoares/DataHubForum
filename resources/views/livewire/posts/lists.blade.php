@@ -1,7 +1,7 @@
-<div class="max-w-3xl flex flex-col space-y-4">
+<div class="flex flex-col space-y-4">
     @forelse ($this->posts as $post)
     <div class="border-b border-gray-200 pb-4 overflow-hidden">
-        <a href="{{ route('posts.show', [$post->user, $post]) }}" wire:navigate class="block group w-full overflow-hidden" wire:navigate>
+        <a href="{{ route('post.show', $post->user) }}" wire:navigate class="block group w-full overflow-hidden" wire:navigate>
             <h2 class="text-lg sm:text-xl font-semibold text-gray-800 group-hover:text-blue-500 
                        w-full overflow-hidden whitespace-nowrap text-ellipsis">
                 {{ $post->title }}
@@ -25,7 +25,7 @@
 
     @endforelse
 
-    <div class="flex justify-center">
+    <div class="flex justify-center ">
         {{ $this->posts->links('pagination::simple-tailwind') }}
     </div>
 </div>
